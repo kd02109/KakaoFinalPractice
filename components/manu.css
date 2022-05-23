@@ -1,0 +1,21 @@
+.manu{
+    display: flex;
+    border-bottom: var(--border-bottom);
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
+.manu__box{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.manu__span:first-child{
+    margin-bottom: 20px;
+}
+.manu__span:last-child{
+    font-weight: 600;
+    font-size: 15px;
+}

@@ -1,0 +1,17 @@
+.setting{
+    margin: var(--margin);
+}
+.setting__column{
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.setting__box i{
+    margin-right: 10px;
+}
+.setting__box span{
+    font-weight: 600;
+}

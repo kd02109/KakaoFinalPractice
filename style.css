@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Grape+Nuts&family=Open+Sans:wght@400;600&display=swap');
+@import "reset.css";
+@import "root.css";
+
+/** components **/
+@import "components/header.css";
+@import "components/pirate.css";
+@import "components/channel.css";
+@import "components/pirate-list.css";
+@import "components/nav.css";
+@import "components/manu.css";
+@import "components/screen-limit.css";
+
+/** screen **/
+@import "screen/content.css";
+@import "screen/login.css";
+@import "screen/pirate.css";
+@import "screen/bounty.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/setting.css";
+@import "screen/chatting.css";
+
+body{
+    font-family: 'Grape Nuts', 'Gloria Hallelujah','Open Sans', sans-serif;
+    background-color: #F0F1F3;
+    height: 120vh;
+}

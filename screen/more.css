@@ -1,0 +1,15 @@
+.more-roopy{
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.more-roopy__info{
+    display: flex;
+    flex-direction: column;
+}
+.roopy__id{
+    margin-top: 8px;
+}
+
+.manu__span:first-child{
+    margin-top: 20px;
+}

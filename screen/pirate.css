@@ -1,0 +1,30 @@
+.status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    box-shadow: 5px 3px 10px 5px tomato;
+    opacity: 0.5;
+}
+.status span:first-child {
+    margin-right: 10px;
+    background-color:  black;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: white;
+}
+.status span:last-child{
+    margin-left: 10px;
+    color: black;
+} 
+
+.nav__pirate{
+    color:tomato;
+}

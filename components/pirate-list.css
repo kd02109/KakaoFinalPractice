@@ -1,0 +1,36 @@
+.pirate-list{
+    margin: var(--margin);
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.pirate-list__box:first-child{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+.pirate-list__who{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.pirate-list__who-box img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.pirate-list__who-box:last-child{
+    color: rgba(0, 0, 0, 0.5);
+    font-size:10px;
+    position: absolute;
+    right: 10px;
+}

@@ -1,0 +1,44 @@
+.nav__bounty{
+    color:tomato;
+}
+
+.bounty-list__box:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bounty-list__box:nth-child(2) span:first-child{
+    font-size: 20px;
+}
+
+.bounty-list__box:nth-child(2) span:last-child{
+    margin-top: 5px;
+    font-size: 1px;
+    opacity: 0.5;
+}
+
+
+.bounty-list__box:last-child div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.bounty__new{
+    background-color: tomato;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 5px;
+    border-radius: 50%;
+    padding: 2px;
+    margin-top: 3px;
+}
+
+.pirate-list__who:hover{
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 2px 3px 4px 10px tomato;
+}

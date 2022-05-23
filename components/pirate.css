@@ -1,0 +1,14 @@
+.pirate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: var(--margin);
+    margin-top: 40px;
+    padding: 10px;
+}
+.content__title{
+    font-size:20px;
+}
+.pirate__icons i{
+    margin-left: 10px;
+}

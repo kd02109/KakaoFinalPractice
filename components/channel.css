@@ -1,0 +1,18 @@
+.roopy{
+    margin: var(--margin);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: var(--border-bottom);
+    padding: 10px;
+}
+.roopy img{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.roopy__name{
+    font-size: 32px;
+    font-weight: 900;
+}
